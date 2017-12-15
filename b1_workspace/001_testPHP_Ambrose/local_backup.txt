@@ -1,0 +1,14 @@
+<!-- This is DEV - NOT OPS -->
+<!-- PHP is to create a DB -->
+<?php include 'php/DBconnect_3parm.php'; ?>
+<?php include 'php/DBcreateDatabase.php'; ?>
+<?php include 'php/DBclose.php'; ?>
+<!-- MUST remove above when we go to ops -->
+				
+				
+<!-- PHP is to use a DB -->
+<?php include 'php/DBconnect_4parm.php'; ?>
+<?php include 'php/DBcreateTable.php'; ?>
+<?php include 'php/DBinsert.php'; ?>
+<?php include 'php/DBclose.php'; ?>
+<!-- MUST remove above when we go to ops -->

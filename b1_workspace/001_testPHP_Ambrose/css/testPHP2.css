@@ -1,0 +1,60 @@
+body {
+	background-color: #3399ff;
+}
+.titleDiv {
+	border: 4px black solid;
+	width: 50%;
+	margin: auto;
+}
+hr {
+	border-width: 4px;
+	border-color: #000000;
+	width: 50%;
+}
+h1 {
+	color: #FFF;
+	font-size: 3em;
+	font-family: 'Dancing Script', cursive;
+}
+h2 {
+	color: #FFF;
+	font-size: 2.5em;
+	font-family: 'Dancing Script', cursive;
+}
+h3 {
+	color: #FFF;
+	font-size: 2em;
+	font-family: 'Dancing Script', cursive;
+}
+#dogDiv {
+	border: 5px groove #000000;
+	border-radius: 10px;
+	box-shadow: 20px 20px 50px #009688;
+	margin: auto;
+	width: 600px;
+}
+.print {
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+	color: #FFF;
+}
+#phpDiv {
+	background-color: #009688;
+}
+
+#sqlTable {
+	background-color: #009688;
+	width: 50%;
+}
+
+#sqlDiv {
+	background-color: #009688;
+	width: 50%;
+}
+
+table{
+	background-color: grey;
+}
+table, th, td {
+	border: 2px solid black;
+}
